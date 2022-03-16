@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>makieta strony</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-web/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="company">
+            <img class="company lgoo" src="" alt="logofirmy" />
+            <h2 class="company slogan"> tu bedzie logo </h2>
+        </div>
+        <nav class="main menu">
+            <li class="menu-items">
+                <a class="menu-link" href="">Start</a>
+            </li>
+            <li class="menu-items">
+                <a class="menu-link" href="">Firma</a>
+            </li>
+            <li class="menu-items">
+                <a class="menu-link" href="">Usługi</a>
+            </li>
+            <li class="menu-items">
+                <a class="menu-link" href="">Ceny</a>
+            </li><li class="menu-items">
+                <a class="menu-link" href="">Kontkakt</a>
+            </li>
+        </nav>
+        
+        <div class="slajder" >
+
+            tu bedzie slajer 
+            <img src="" alt="zdjecia ze slajdera "/>
+        </div>
+
+    </header>
+
+    <main>
+    <section class="services">
+        <div class="service__wrapper">
+            <h2 class="service__title"> usluga 1</h2>
+            <p class="services__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente quas inventore assumenda similique reiciendis quasi provident recusandae ab enim! Eligendi rerum magni adipisci repudiandae et vero molestiae, facilis aliquam ducimus.</p>
+            <a class="services__btn" href="uslugi.html"> Wiecej </a>
+        </div>
+        <div class="service__wrapper">
+            <h2 class="service__title"> usluga 2</h2>
+            <p class="services__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente quas inventore assumenda similique reiciendis quasi provident recusandae ab enim! Eligendi rerum magni adipisci repudiandae et vero molestiae, facilis aliquam ducimus.</p>
+            <a class="services__btn" href="uslugi.html"> Wiecej </a>
+        </div>
+        <div class="service__wrapper">
+            <h2 class="service__title"> usluga 3</h2>
+            <p class="services__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente quas inventore assumenda similique reiciendis quasi provident recusandae ab enim! Eligendi rerum magni adipisci repudiandae et vero molestiae, facilis aliquam ducimus.</p>
+            <a class="services__btn" href="uslugi.html"> Wiecej </a>
+        </div>
+    </section>
+
+    <section class="main">
+        <h1 class="main-title">  Witamny</h1>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, fuga maxime possimus atque iste culpa laborum perferendis cupiditate eaque ipsum unde incidunt quam repellat animi! Voluptatibus eaque possimus optio dolores.</p>
+    </section>
+
+    </main>
+    <aside>tu beda reklamy </aside>
+   
+   
+    <footer>
+        <div class="copyright">Dane teleadresowe</div>
+        <div class="social-icons">
+            <a href="facebook.com"><img src="" alt=""> <i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
