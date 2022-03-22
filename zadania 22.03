@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .h1{
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .blok{
+            background-color: blue;
+        
+        }
+        .p1{
+            font-size: 30px;
+        }
+        .p2{
+            color: orange;
+        }
+        .zmiana{
+            font-size: 50px;
+            background: black;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+   <h1 class="h1">To jest nagłowiek h1</h1> 
+   <div class="blok"> To jest div</div>
+   <p class="p1">To jest akapit 1</p>
+   <p class="p2"> to jest akapit 2</p>
+   
+   
+   <script>
+       //pobieramy elementy html
+       const naglowekH1 = document.querySelector('h1');
+       const diw = document.querySelector('div.blok');
+       const akapity = document.querySelectorAll('p');
+
+       //dodajemy dowolną treść do akapitu 1 
+    akapity[0].innerHTML += '<b> Bardzo lubię placki</b>';
+
+        //zmieniamy zawartość nagłówka h1 
+        naglowekH1.textContent = 'JavaScript';
+
+        // zmieniamy kroj czcionki divowi
+        diw.style.fontfamily = 'Courier New';
+
+        //zmieńmy 
+        diw.classList.add('zmiana');
+
+        //tworzymy nowy element 
+        const nowyH2 = document.createElement('h2');
+        //do nowego elementu dodajmytext 
+        nowyH2.textContent = 'Aplikacje iternetowe';
+        //dodajemy nowy element do akapitu 2
+        akapity[1].appendChild(nowyH2);
+        // usuwamy nagłowek 1 
+        naglowekH1.remove();
+   </script>
+</body>
+</html>
