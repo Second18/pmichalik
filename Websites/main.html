@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gry</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+     <!--Menu-->   
+     <nav class="navbar">
+<h1 class="logo">GAMEROOM</h1>
+<ul class="nav-links">
+    <li class="ctn"><a href="main.html">Strona główna</a></li>
+    <li class="ctn"><a  href="premiery.html">Nadchodzące premiery</a></li>
+    <li class="ctn"><a href="bestseller.html">Bestseller</a></li>
+    <li class="ctn"><a href="kontakt.html">Kontakt</a></li>
+</ul>
+<img src="./img/menu.jpg" alt="" class="menu-btn">
+
+     </nav>
+
+
+    <header>
+        <div class="header-content">
+            <h2>Świat pełen gier</h2>
+            <div class="line"></div>
+            <h1>Witaj w świecie gier i nie tylko! </h1>
+            <a href="premiery.html" class="ctn">Więcej</a>
+        </div>
+    </header>
+
+    <!--Gra miesiaca -->
+    <section class="events">
+        <div class="title">
+            <h1>Warte uwagi</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="zdj" src="./img/forza.jpg" alt="">
+                <h4>Forza Horizon 5</h4>
+                <p>Forza Horizon 5 jest to gra o tematyce wyścigowej. Dużym plusem jej jest świetna grafika i duży realizm</p>
+                <a href="#" class="ctn">Więcej</a>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./img/war.jpg" alt="">
+                    <h4>God Of War: Ragnarok</h4>
+                    <p>God of War: Ragnarok jest to  przygodowa gra akcji TPP, będąca piątą częścią serii God of War. </p>
+                    <a href="#" class="ctn">Więcej</a>
+                </div>
+        </div>
+    </section> 
+
+
+     <!--PRZECENYGIER-->
+    <section class="explore">
+       <div class="explore-content">
+        <h1>Przecenione gry</h1>
+        <div class="line"></div>
+        <p>Tytuły warte uwagi przecenione na STEAM. Kto pierwszy ten lepszy!</p>
+        <a href="https://store.steampowered.com/specials/?l=polish" class="ctn">Więcej</a>
+       </div>
+    </section>
+
+
+
+
+    <div class="back">
+    <a href="#" class="ctn">Powrót</a>
+    </div>
+
+     <!--STOPKA-->
+    <section class="footer">
+        <p>Patryk Michalik ©</p>
+    </section>
+
+
+    
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    });
+</script> 
+
+</body>
+</html>

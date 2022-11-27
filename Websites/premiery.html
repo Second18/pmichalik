@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premiery 2023</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">GAMEROOM</h1>
+        <ul class="nav-links">
+            <li class="ctn"><a href="main.html">Strona główna</a></li>
+            <li class="ctn"><a href="premiery.html">Nadchodzące premiery</a></li>
+            <li class="ctn"><a href="bestseller.html">Bestseller</a></li>
+            <li class="ctn"><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <img src="./img/menu.jpg" alt="" class="menu-btn">
+             </nav>
+             
+             
+             <header class="header2">
+                <div class="header-content2">
+                    <h2>Nowość w 2023r</h2>
+                    <div class="line"></div>
+                    <h1>Przyszły rok da nam wiele radości! </h1>
+               
+                </div>
+            </header>
+
+ 
+             <section class="projects">
+                <div class="container">
+                    <h2>Nadchodzące premiery w 2023 roku</h2>
+
+                     <!--VALHEIM-->
+                    <div class="projects-item">
+                        <div class="projects-image">
+                            <img src="./img/valheim.jpg" alt="">
+                        </div>
+                        <div class="projects-content">
+                            <h4>Valheim</h4>
+                            <div class="line"></div>
+                            <span></span>
+                            <p>Wieloosobowa gra survivalowa osadzona w otwartym świecie inspirowanym mitologią nordycką. W Valheim wcielamy się w wojownika trafiającego do tytułowej krainy, by zdobyć przychylność bogów, a w rezultacie – trafić do mitycznej Valhalli. Nim jednak tego dokona, musi dowieść swej wartości, przemierzając świat i stawiając czoła zamieszkującym go bestiom.</p>
+        
+                        </div>
+                    </div>
+
+                     <!--HARRYPOTTER-->
+                    <div class="projects-item">
+                        <div class="projects-image change">
+                            <img src="./img/potter.jpg" alt="">
+                        </div>
+                        <div class="projects-content  change1">
+                            <h4>Dziedzictwo Hogwardu</h4>
+                            <div class="line"></div>
+                            <span></span>
+                            <p>Hogwarts Legacy to trzecioosobowa gra RPG akcji z otwartym światem, która została osadzona w uniwersum Harry’ego Pottera. Wcielamy się w młodego czarodzieja (lub czarodziejkę), który w XIX wieku trafia do tytułowej szkoły magii i czarodziejstwa.</p>
+        
+                        </div>
+                    </div>
+
+                     <!--GOTHIC-->
+                    <div class="projects-item">
+                        <div class="projects-image">
+                            <img src="./img/gothic.jpg" alt="">
+                        </div>
+                        <div class="projects-content">
+                            <h4>Gothic Remake</h4>
+                            <div class="line"></div>
+                            <span></span>
+                            <p>Remake kultowej gry RPG z 2001 roku, opracowany na zlecenie firmy THQ Nordic przez należące do niej Barcelona Studio. Nowy Gothic na tle pierwowzoru wyróżnia się przede wszystkim za sprawą całkowicie przebudowanej oprawy graficznej i mechaniki rozgrywki.</p>
+        
+                        </div>
+                    </div>
+
+                     <!--SPIDERMAN-->
+                    <div class="projects-item">
+                        <div class="projects-image change ">
+                            <img src="./img/spider.jpg" alt="">
+                        </div>
+                        <div class="projects-content  change1">
+                            <h4>Marvel's Spider-Man 2</h4>
+                            <div class="line"></div>
+                            <span></span>
+                            <p>Druga odsłona przebojowej serii Insomniac Games przedstawiającej przygody Spider-Mana. Gra została stworzona z myślą o PlayStation 5. Podczas przygody gracze wcielą się zarówno w Petera Parkera, jak i Milesa Moralesa.</p>
+        
+                        </div>
+                    </div>
+
+                     <!--DEAD SPACE-->
+                    <div class="projects-item">
+                        <div class="projects-image change ">
+                            <img src="./img/dead.jpg" alt="">
+                        </div>
+                        <div class="projects-content  change1">
+                            <h4>Dead Space Remake</h4>
+                            <div class="line"></div>
+                            <span></span>
+                            <p>Dead Space to remake survival horroru opracowanego przez zespół Visceral Games. Za odświeżenie gry, w której musimy zmierzyć się z kosmiczną grozą, odpowiada studio EA Motive.</p>
+        
+                        </div>
+                    </div>
+
+                     <!--HORIZON-->
+                    <div class="projects-item">
+                        <div class="projects-image change ">
+                            <img src="./img/horizon.jpg" alt="">
+                        </div>
+                        <div class="projects-content  change1">
+                            <h4>Horizon: Call of the Mountain</h4>
+                            <div class="line"></div>
+                            <span></span>
+                            <p>Horizon: Call of the Mountain to spin-off popularnej serii, opracowany z myślą o wirtualnej rzeczywistości. Aby zagrać w ten tytuł, wymagane jest posiadanie gogli PlayStation VR2.</p>
+        
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <div class="back">
+                <a href="#" class="ctn">Powrót</a>
+                </div>
+            <section class="footer">
+                <p>Patryk Michalik ©</p>
+            </section>
+            
+
+             <script>
+                const menuBtn = document.querySelector('.menu-btn')
+                const navlinks = document.querySelector('.nav-links')
+            
+                menuBtn.addEventListener('click',()=>{
+                    navlinks.classList.toggle('mobile-menu')
+                });
+            </script> 
+</body>
+</html>

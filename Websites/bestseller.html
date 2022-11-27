@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">GAMEROOM</h1>
+        <ul class="nav-links">
+            <li class="ctn"><a href="main.html">Strona główna</a></li>
+            <li class="ctn"><a href="premiery.html">Nadchodzące premiery</a></li>
+            <li class="ctn"><a href="bestseller.html">Bestseller</a></li>
+            <li class="ctn"><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <img  src="./img/menu.jpg" alt="" class="menu-btn">
+             </nav>
+             <header class="header4">
+                <div class="header-content4">
+                    <h1>Najlepsze gry poszczególnych lat! </h1>
+                    <div class="line"></div>
+                </div>
+            </header>
+            <section class="projects">
+                <div class="container">
+                    <h2>Bestsellery minionych lat</h2>
+
+
+                         <!--DYING LIGHT-->
+                    <div class="projects-item">
+                    <div class="projects-image">
+                    <img src="./img/dying.jpg" alt="">
+                    </div>
+                    <div class="projects-content">
+                        <h4>Rok 2022</h4>
+                        <div class="line"></div>
+                        <span></span>
+                        <p class="p1">Dying Light 2</p>
+                        <p>Dying Light 2 zabiera nas do postapokaliptycznego miasta w Europie, byśmy mogli zmierzyć się z zombie i po raz pierwszy w tym cyklu sprawdzić się w podejmowaniu ważnych decyzji. Mimo technicznych problemów to naprawdę zapadająca w pamięć przygoda.</p>
+        
+                    </div>
+                    </div>
+
+                        <!--RESIDENT EVIL-->
+                    <div class="projects-item">
+                    <div class="projects-image change">
+                         <img src="./img/resident.jpg" alt="">
+                    </div>
+                    <div class="projects-content  change1">
+                         <h4>Rok 2021</h4>
+                        <div class="line"></div>
+                        <span></span>
+                        <p class="p1">Resident Evil Village</p>
+                        <p> Odsłona serii Resident Evil to wspaniała przygoda. Nie tak przerażająca jak oryginał, ale z pewnością bardziej różnorodna i zaskakująca - zarówno pod względem fabuły, jak też odwiedzanych lokacji.
+                                Capcom oferuje w Village idealne wręcz tempo rozgrywki oraz świetne postacie, z którymi boahter wchodzi w interakcje. Końcówka przypomina mocniej grę akcji niż horror, co nie zmienia faktu, że to po prostu fantastyczna gra wideo.</p>
+        
+                    </div>
+                    </div>
+
+                     <!--CYBERPUNK-->
+                    <div class="projects-item">
+                    <div class="projects-image">
+                    <img src="./img/cyber.jpg" alt="">
+                    </div>
+                    <div class="projects-content">
+                        <h4>Rok 2020</h4>
+                    <div class="line"></div>
+                    <span></span>
+                    <p class="p1">Cyberpunk 2077</p>
+                    <p>Czego złego by o Cyberpunku 2077 nie mówić, w pełni zasłużył on na miejsce w doborowym gronie dwudziestu najlepszych gier ubiegłego roku. Fakt, nie da się zaprzeczyć, że jego debiut nie przebiegł wedle oczekiwań graczy, a sam tytuł okazał się być mocno niedopracowany oraz pełen błędów. Nie zmienia to jednak tego, że stworzone przez CD Projekt RED Night City oferuje pod względem fabularnym niepowtarzalne wręcz doznania, których próżno szukać w większości dostępnych obecnie na rynku gier..</p>
+                        </section>
+                        <div class="back">
+                            <a href="#" class="ctn">Powrót</a>
+                            </div>
+                            <section class="footer">
+                                <p>Patryk Michalik ©</p>
+                            </section>
+                            <script>
+                                const menuBtn = document.querySelector('.menu-btn')
+                                const navlinks = document.querySelector('.nav-links')
+                            
+                                menuBtn.addEventListener('click',()=>{
+                                    navlinks.classList.toggle('mobile-menu')
+                                });
+                            </script> 
+</body>
+</html>

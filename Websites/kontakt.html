@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">GAMEROOM</h1>
+        <ul class="nav-links">
+            <li class="ctn"><a href="main.html">Strona główna</a></li>
+            <li class="ctn"><a href="premiery.html">Nadchodzące premiery</a></li>
+            <li class="ctn"><a href="bestseller.html">Bestseller</a></li>
+            <li class="ctn"><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <img  src="./img/menu.jpg" alt="" class="menu-btn">
+        
+             </nav>
+             <header class="header3">
+                <div class="header-content3">
+                    <h1>Skontaktuj sie z nami! </h1>
+                    <div class="line"></div>
+                </div>
+                
+            </header>
+            <section class="form">
+                <div class="ramka">
+                    <form>
+                    <dt>Imię</dt>
+                    <dd><input type="text" name="imie" required></dd>
+                    <dt>Nazwisko</dt>
+                    <dd><input type="text" name="imie" required></dd>
+                    <dt>Email</dt>
+                    <dd><input type="email" name="email" required></dd>
+                    <dt>Tytuł</dt>
+                    <dd><input type="text" name="tytul" required></dd>
+                    <dt>Wiadomość</dt>
+                    <dd><textarea name="wiadomosc" required></textarea></dd>
+                    <input type="submit" value="Wyślij">
+                    <input type="reset" value="Wyczyść">
+                    </form>
+                    </div>
+                    
+                
+            </section>
+            <div class="back">
+                <a href="#" class="ctn">Powrót</a>
+                </div>
+            <section class="footer">
+                <p>Patryk Michalik ©</p>
+            </section>
+
+            
+
+
+
+
+
+            <script>
+                const menuBtn = document.querySelector('.menu-btn')
+                const navlinks = document.querySelector('.nav-links')
+            
+                menuBtn.addEventListener('click',()=>{
+                    navlinks.classList.toggle('mobile-menu')
+                });
+            </script> 
+</body>
+</html>
