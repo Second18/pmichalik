@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.baner-lewy{
+    background-color:#29434E;
+    color:whitesmoke ;
+    height: 70px;
+    width: 70%;
+    text-align: center;
+ 
+   
+}
+.baner-prawy{
+    background-color:#29434E;
+    color:whitesmoke ;
+   width: 30%;
+   height: 70px;
+
+
+   
+}
+.listy{
+    background-color: #B0BEC5;
+    height: 320px;
+    display: flex;
+    
+}
